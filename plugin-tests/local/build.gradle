@@ -1,0 +1,10 @@
+buildscript {
+  repositories {
+	jcenter()
+  }
+  dependencies {
+    classpath 'com.blogspot.jvalentino.gradle:files-demo:1.0.0'
+  }
+}
+
+apply plugin: 'files-demo'
